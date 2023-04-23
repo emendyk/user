@@ -46,7 +46,7 @@ public class User
         String favColor = askForInput(input, "What is your favorite color?");
         String birthday = askForInput(input, "What is your birthday (MMDDYYYY)?");
 
-        String password = petName.substring(0, 4) + favColor.substring(0, 2) + birthday.substring(0, 2); // creates a password based on the user responses
+        String password = petName.substring(0, 2) + favColor.substring(0, 2) + birthday.substring(0, 4); // creates a password based on the user responses
 
         return password;
     }
